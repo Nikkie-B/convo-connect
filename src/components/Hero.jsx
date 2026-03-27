@@ -21,7 +21,9 @@ export default function Hero() {
 
           <div className="hero-btns">
             <div className="btn-primary">Let's Connect →</div>
-            <div className="btn-ghost">Explore What We Offer →</div>
+            <a className="btn-ghost" href="#services">
+              Explore What We Offer →
+            </a>
           </div>
         </div>
 
